@@ -1,7 +1,10 @@
 # Lab Report 4
 ## Khoi Nguyen
+### Introduction
 For the lab report this week, I will be performing the tasks listed below. For each numbered step starting right after the timer (so steps 4-9), I will be detailing exactly which keys I pressed to get to that step. Furthermore, explaining the commands I ran and what the effect of those keypresses were. <br>
-**NOTE**: The commands and steps I took will mostly be focused on steps that are starting after the timer as explained above. This includes step 4 to 9. <br>
+**NOTE**: The commands and steps that I am detailing in this report will mostly be focused on steps that are starting after the timer as explained above. This includes step 4 to 9. <br>
+
+### Explanation of Steps
 1. **Setup** Delete any existing forks of the repository you have on your account
 2. **Setup** Fork the repository
 3. **The real deal** Start the timer!
