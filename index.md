@@ -32,7 +32,7 @@ Password: `<CTRL>` + `<C>` (copied passwords from Note's app) -> `<CTRL>` + `<V>
 `cd` + `lab7` + `bash`+ "t" + `<tab>` + `<enter>`
 <u> Explanation </u> <br>
 - First we need to make sure we are in the correct directory. The target directory is `lab7`. To change the working directory, I used the `cd` command.
-- The `bash test.sh` command is used to execute a Bash shell script named "test.sh". A shell script is a file containing a series of commands that are interpreted and executed by the Bash shell. This command will help us test whether `ListExamples.java` file is successful. I first typed the letter "t" to indicate the bash shell script name starts with a letter "t". Since there is only one bash shell script name starts with a letter "t" in the working directory, the `<tab>` shortcut will auto-complete.
+- The `bash test.sh` command is used to execute a Bash shell script named `test.sh`. A shell script is a file containing a series of commands that are interpreted and executed by the Bash shell. This command will help us test whether `ListExamples.java` file is successful. I first typed the letter "t" to indicate the bash shell script name starts with a letter `<t>`. Since there is only one bash shell script name starts with a letter `<t>` in the working directory, the `<tab>` shortcut will auto-complete.
 - In the picture above, we can clearly see since the apporiate changes were not made, the test fails.
 
 7. Edit the code file to fix the failing test <br>
@@ -46,16 +46,21 @@ Password: `<CTRL>` + `<C>` (copied passwords from Note's app) -> `<CTRL>` + `<V>
 *Figure 7.4* <br>
 <u> Commands </u> <br>
 Figure 7.1: `vim`+ "L" + `<tab>` + "." + `<tab>` + `<enter>` <br>
-Figure 7.2: `/` + "change" + `<enter>` (cursor should be on c) -> searches for the line with the given method that needs to be edited
-Figure 7.3: `<j>` + `<l>`+ `<l>`(cursor should be on 1) + `<x>` 
-Figure 7.4: `<i>` + `<2>` + `<escape>` + `:wq` + `<enter>`
+Figure 7.2: `/<change>` + `<enter>` (cursor should be on c) -> searches for the line with the given method that needs to be edited <br>
+Figure 7.3: `<j>` + `<l>`+ `<l>`(cursor should be on 1) + `<x>` <br>
+Figure 7.4: `<i>` + `<2>` + `<escape>` + `:wq` + `<enter>` <br>
 <u> Explanation </u> <br>
-  
+- Figure 7.1: When you run the command `vim` in a terminal, it launches the Vim editor. I typed the letter "L" to indicate I am looking for a file that starts with said letter. There are two files in the repository: "ListExamples.java" and "ListExamplesTest.java". I was able to ultilize the `<tab>` shortcut to ato-complete my search. Then typing "." and `<tab>` to auto-complete my search for a ".java" file. 
+- Figure 7.2: The `/` command searches forward a specific term. In this case I am looking for the word "change" which will take me to the line just above our desired code to fix. 
+- Figure 7.3: The `<j>` command will move our cursor down while the `<l>` command will move our cursor in the right direction. We will go down one line then right 2 spaces until the cursor is on the number 1. The `<x>` command will then remove the character at the current position of the cursor. Since the cursor position is at 1, calling the `<x>` command will remove the character `<1>`.
+- Figure 7.4: When calling the `<i>` command, we are entered into insert mode at the current cursor position. We then enter the character `<2>` to insert the character at the given cursor position. It is important to note that we will remain in insert mode until we use `<escape>` to exit. The `<:w>` command saves the file while the `<:q>` command exits out of Vim. We can use both the command at once (`:wq` + `<enter>`), to quickyly both save the changes then quit Vim.
+
 8. Run the tests, demonstrating that they now succeed <br>
-<u> Commands </u> <br>
 ![image](lab4_4.jpg) <br> 
-bash test.sh (should be good)
-Up arrow, up arrow
+<u> Commands </u> <br>
+`<up arrow>` + `<up arrow>`
+<u> Explanation </u> <br>
+- Since I have previously called the `<bash test.sh>` command, it is not saved in my bash history. Out of conveniece, I was able to press the `<up>` arrow twice to retrieve my command.
 
 9. Commit and push the resulting change to your Github account <br>
 <git commit -am “name”>
