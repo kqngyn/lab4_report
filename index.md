@@ -10,37 +10,42 @@ For the lab report this week, I will be performing the tasks listed below. For e
 3. **The real deal**: Start the timer!
 
 4. Log into ieng6 <br>
-![image](lab4_1.pdf)<br>
-<u> List of Commands </u> <br>
+![image](lab4_1.jpg)<br>
+<u> Commands </u> <br>
 Username: `<up>` <br>
 Password: `<CTRL>` + `<C>` (copied passwords from Note's app) -> `<CTRL>` + `<V>` + `<enter>` <br>
-<u> Explanation </u>
+<u> Explanation </u> <br>
 - Since I have previously typed in the `ssh` command, the command has already been stored in my bash history. Hence I was able to quickly type the `<up>` arrow to quickly access the command in my history.
 - My account password is stored in my Note's app. Hence I was able to quickly copy (`<CTRL>` + `<C>`) and paste (`<CTRL>` + `<V>`) my password to login.
 
-5. Clone your fork of the repository from your Github account
-<u> List of Commands </u> <br>
-![image](lab4_2.1.pdf)<br>
+5. Clone your fork of the repository from your Github account <br>
+<u> Commands </u> <br>
+![image](lab4_2.1.jpg)<br>
+![image](lab4_2.2.jpg)<br>
 `<CTRL>` + `<C>` <link of github lab7) -> `git clone` +  `<CTRL>` + `<V>` + `<enter>`
-<u> Explanation </u>
+<u> Explanation </u> <br>
+- First I went to the course website to copy (`<CTRL>` + `<C>`) the link of the repository. A GitHub repository is where your project files are stored. When you clone your repository, you’re simply making a copy of the repository from GitHub and saving it to your machine. The `git clone` command copies an existing Git repository. Hence `git clone https://github.com/ucsd-cse15l-s23/lab7` clone the repository which has a subset of the code from the week 3 lab. 
 
-6. Run the tests, demonstrating that they fail
-Cd lab7
-bash test.sh (should fail with og code)
-bash<tab>
+6. Run the tests, demonstrating that they fail <br>
+<u> Commands </u> <br>
+![image](lab4_3.jpg)<br>
+`cd` + `lab7` + `bash`+ "t" + `<tab>` + `<enter>`
+<u> Explanation </u> <br>
+- First we need to make sure we are in the correct directory. The target directory is `lab7`. To change the working directory, I used the `cd` command.
+- The `bash test.sh` command is used to execute a Bash shell script named "test.sh". A shell script is a file containing a series of commands that are interpreted and executed by the Bash shell. This command will help us test whether `ListExamples.java` file is successful. I first typed the letter "t" to indicate the bash shell script name starts with a letter "t". Since there is only one bash shell script name starts with a letter "t" in the working directory, the `<tab>` shortcut will auto-complete.
 
-7. Edit the code file to fix the failing test
+7. Edit the code file to fix the failing test <br>
 vim ListExamples.java -> opens the code to List.Examples.java
 vim <tab> +.java
 /change<enter> (cursor should be on c) -> searches for the line with the given method that needs to be edited
 j l l  x (cursor should be on 1) 
 i<2> <escape> :wq <enter>
   
-8. Run the tests, demonstrating that they now succeed
+8. Run the tests, demonstrating that they now succeed <br>
 bash test.sh (should be good)
 Up arrow, up arrow
 
-9. Commit and push the resulting change to your Github account
+9. Commit and push the resulting change to your Github account <br>
 <git commit -am “name”>
 git push
 Enter username
