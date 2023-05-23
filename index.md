@@ -9,12 +9,12 @@ For the lab report this week, I will be performing the tasks listed below. For e
 2. **Setup**: Fork the repository
 3. **The real deal**: Start the timer!
 
-4. Log into ieng6
+4. Log into ieng6 <br>
 ![image](lab4_1.pdf)<br>
 <u> List of Commands </u> <br>
 Username: `<up>` <br>
 Password: `<CTRL>` + `<C>` (copied passwords from Note's app) -> `<CTRL>` + `<V>` <br>
-<u> Explanation </u> <br>
+<u> Explanation </u>
 - Since I have previously typed in the `ssh` command, the command has already been stored in my bash history. Hence I was able to quickly type the `<up>` arrow to quickly access the command.
 - 
 5. Clone your fork of the repository from your Github account
