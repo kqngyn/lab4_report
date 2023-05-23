@@ -22,7 +22,7 @@ Password: `<CTRL>` + `<C>` (copied passwords from Note's app) -> `<CTRL>` + `<V>
 ![image](lab4_2.1.jpg)<br>
 ![image](lab4_2.2.jpg)<br>
 <u> Commands </u> <br>
-`<CTRL>` + `<C>` <link of github lab7) -> `git clone` +  `<CTRL>` + `<V>` + `<enter>` <br>
+`<CTRL>` + `<C>` (link of github lab7) -> `git clone` +  `<CTRL>` + `<V>` + `<enter>` <br>
 <u> Explanation </u> <br>
 - First I went to the course website to copy (`<CTRL>` + `<C>`) the link of the repository. A GitHub repository is where your project files are stored. When you clone your repository, you’re simply making a copy of the repository from GitHub and saving it to your machine. The `git clone` command copies an existing Git repository. Hence `git clone https://github.com/ucsd-cse15l-s23/lab7` clone the repository which has a subset of the code from the week 3 lab. 
 
