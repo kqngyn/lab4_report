@@ -11,10 +11,12 @@ For the lab report this week, I will be performing the tasks listed below. For e
 
 4. Log into ieng6
 ![image](lab4_1.pdf)<br>
-<u> List of Commands <\u> <br>
-Username: `<up>`
-Password: CNTRL + C <password from notes> -> CNTRL + V
-  
+<u> List of Commands </u> <br>
+Username: `<up>` <br>
+Password: `<CTRL>` + `<C>` (copied passwords from Note's app) -> `<CTRL>` + `<V>` <br>
+<u> Explanation </u> <br>
+- Since I have previously typed in the `ssh` command, the command has already been stored in my bash history. Hence I was able to quickly type the `<up>` arrow to quickly access the command.
+- 
 5. Clone your fork of the repository from your Github account
 CNTRL + C <link of github lab7> -> git clone +  CNTRL + V
   
