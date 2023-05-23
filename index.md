@@ -19,16 +19,16 @@ Password: `<CTRL>` + `<C>` (copied passwords from Note's app) -> `<CTRL>` + `<V>
 - My account password is stored in my Note's app. Hence I was able to quickly copy (`<CTRL>` + `<C>`) and paste (`<CTRL>` + `<V>`) my password to login.
 
 5. Clone your fork of the repository from your Github account <br>
-<u> Commands </u> <br>
 ![image](lab4_2.1.jpg)<br>
 ![image](lab4_2.2.jpg)<br>
+<u> Commands </u> <br>
 `<CTRL>` + `<C>` <link of github lab7) -> `git clone` +  `<CTRL>` + `<V>` + `<enter>`
 <u> Explanation </u> <br>
 - First I went to the course website to copy (`<CTRL>` + `<C>`) the link of the repository. A GitHub repository is where your project files are stored. When you clone your repository, you’re simply making a copy of the repository from GitHub and saving it to your machine. The `git clone` command copies an existing Git repository. Hence `git clone https://github.com/ucsd-cse15l-s23/lab7` clone the repository which has a subset of the code from the week 3 lab. 
 
 6. Run the tests, demonstrating that they fail <br>
-<u> Commands </u> <br>
 ![image](lab4_3.jpg)<br>
+<u> Commands </u> <br>
 `cd` + `lab7` + `bash`+ "t" + `<tab>` + `<enter>`
 <u> Explanation </u> <br>
 - First we need to make sure we are in the correct directory. The target directory is `lab7`. To change the working directory, I used the `cd` command.
@@ -36,12 +36,20 @@ Password: `<CTRL>` + `<C>` (copied passwords from Note's app) -> `<CTRL>` + `<V>
 - In the picture above, we can clearly see since the apporiate changes were not made, the test fails.
 
 7. Edit the code file to fix the failing test <br>
+![image](lab4_6.4.jpg)<br>
+*Figure 7.1* <br>
+![image](lab4_6.1.jpg)<br>
+*Figure 7.2* <br>
+![image](lab4_6.2.jpg)<br>
+*Figure 7.3* <br>
+![image](lab4_6.3.jpg)<br>
+*Figure 7.4* <br>
 <u> Commands </u> <br>
-vim ListExamples.java -> opens the code to List.Examples.java
 vim <tab> +.java
 /change<enter> (cursor should be on c) -> searches for the line with the given method that needs to be edited
 j l l  x (cursor should be on 1) 
 i<2> <escape> :wq <enter>
+<u> Explanation </u> <br>
   
 8. Run the tests, demonstrating that they now succeed <br>
 <u> Commands </u> <br>
