@@ -13,13 +13,17 @@ For the lab report this week, I will be performing the tasks listed below. For e
 ![image](lab4_1.pdf)<br>
 <u> List of Commands </u> <br>
 Username: `<up>` <br>
-Password: `<CTRL>` + `<C>` (copied passwords from Note's app) -> `<CTRL>` + `<V>` <br>
+Password: `<CTRL>` + `<C>` (copied passwords from Note's app) -> `<CTRL>` + `<V>` + `<enter>` <br>
 <u> Explanation </u>
-- Since I have previously typed in the `ssh` command, the command has already been stored in my bash history. Hence I was able to quickly type the `<up>` arrow to quickly access the command.
-- 
+- Since I have previously typed in the `ssh` command, the command has already been stored in my bash history. Hence I was able to quickly type the `<up>` arrow to quickly access the command in my history.
+- My account password is stored in my Note's app. Hence I was able to quickly copy (`<CTRL>` + `<C>`) and paste (`<CTRL>` + `<V>`) my password to login.
+
 5. Clone your fork of the repository from your Github account
-CNTRL + C <link of github lab7> -> git clone +  CNTRL + V
-  
+<u> List of Commands </u> <br>
+![image](lab4_2.1.pdf)<br>
+`<CTRL>` + `<C>` <link of github lab7) -> `git clone` +  `<CTRL>` + `<V>` + `<enter>`
+<u> Explanation </u>
+
 6. Run the tests, demonstrating that they fail
 Cd lab7
 bash test.sh (should fail with og code)
