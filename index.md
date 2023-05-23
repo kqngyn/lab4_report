@@ -22,14 +22,14 @@ Password: `<CTRL>` + `<C>` (copied passwords from Note's app) -> `<CTRL>` + `<V>
 ![image](lab4_2.1.jpg)<br>
 ![image](lab4_2.2.jpg)<br>
 <u> Commands </u> <br>
-`<CTRL>` + `<C>` <link of github lab7) -> `git clone` +  `<CTRL>` + `<V>` + `<enter>`
+`<CTRL>` + `<C>` <link of github lab7) -> `git clone` +  `<CTRL>` + `<V>` + `<enter>` <br>
 <u> Explanation </u> <br>
 - First I went to the course website to copy (`<CTRL>` + `<C>`) the link of the repository. A GitHub repository is where your project files are stored. When you clone your repository, you’re simply making a copy of the repository from GitHub and saving it to your machine. The `git clone` command copies an existing Git repository. Hence `git clone https://github.com/ucsd-cse15l-s23/lab7` clone the repository which has a subset of the code from the week 3 lab. 
 
 6. Run the tests, demonstrating that they fail <br>
 ![image](lab4_3.jpg)<br>
 <u> Commands </u> <br>
-`cd` + `lab7` + `bash`+ "t" + `<tab>` + `<enter>`
+`cd` + `lab7` + `bash`+ "t" + `<tab>` + `<enter>` <br>
 <u> Explanation </u> <br>
 - First we need to make sure we are in the correct directory. The target directory is `lab7`. To change the working directory, I used the `cd` command.
 - The `bash test.sh` command is used to execute a Bash shell script named `test.sh`. A shell script is a file containing a series of commands that are interpreted and executed by the Bash shell. This command will help us test whether `ListExamples.java` file is successful. I first typed the letter "t" to indicate the bash shell script name starts with a letter `<t>`. Since there is only one bash shell script name starts with a letter `<t>` in the working directory, the `<tab>` shortcut will auto-complete.
@@ -58,7 +58,7 @@ Figure 7.4: `<i>` + `<2>` + `<escape>` + `:wq` + `<enter>` <br>
 8. Run the tests, demonstrating that they now succeed <br>
 ![image](lab4_4.jpg) <br> 
 <u> Commands </u> <br>
-`<up arrow>` + `<up arrow>`
+`<up arrow>` + `<up arrow>` <br>
 <u> Explanation </u> <br>
 - Since I have previously called the `<bash test.sh>` command, it is not saved in my bash history. Out of conveniece, I was able to press the `<up>` arrow twice to retrieve my command.
 
