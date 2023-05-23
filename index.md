@@ -48,7 +48,7 @@ Password: `<CTRL>` + `<C>` (copied passwords from Note's app) -> `<CTRL>` + `<V>
 Figure 7.1: `vim`+ "L" + `<tab>` + "." + `<tab>` + `<enter>` <br>
 Figure 7.2: `/` + "change" + `<enter>` (cursor should be on c) -> searches for the line with the given method that needs to be edited
 Figure 7.3: `<j>` + `<l>`+ `<l>`(cursor should be on 1) + `<x>` 
-i<2> <escape> :wq <enter>
+Figure 7.4: `<i>` + `<2>` + `<escape>` + `:wq` + `<enter>`
 <u> Explanation </u> <br>
   
 8. Run the tests, demonstrating that they now succeed <br>
