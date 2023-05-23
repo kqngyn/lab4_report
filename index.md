@@ -37,17 +37,17 @@ Password: `<CTRL>` + `<C>` (copied passwords from Note's app) -> `<CTRL>` + `<V>
 
 7. Edit the code file to fix the failing test <br>
 ![image](lab4_6.4.jpg)<br>
-***<p style="text-align: center;">Figure 7.1</p>*** <br>
+*Figure 7.1* <br>
 ![image](lab4_6.1.jpg)<br>
-***<p style="text-align: center;">Figure 7.2</p>*** <br>
+*Figure 7.2* <br>
 ![image](lab4_6.2.jpg)<br>
-***<p style="text-align: center;">Figure 7.3</p>*** <br>
+*Figure 7.3* <br>
 ![image](lab4_6.3.jpg)<br>
-***<p style="text-align: center;">Figure 7.4</p>*** <br>
+*Figure 7.4* <br>
 <u> Commands </u> <br>
-vim <tab> +.java
-/change<enter> (cursor should be on c) -> searches for the line with the given method that needs to be edited
-j l l  x (cursor should be on 1) 
+Figure 7.1: `vim`+ "L" + `<tab>` + "." + `<tab>` + `<enter>` <br>
+Figure 7.2: `/` + "change" + `<enter>` (cursor should be on c) -> searches for the line with the given method that needs to be edited
+Figure 7.3: `<j>` + `<l>`+ `<l>`(cursor should be on 1) + `<x>` 
 i<2> <escape> :wq <enter>
 <u> Explanation </u> <br>
   
