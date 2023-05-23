@@ -37,13 +37,13 @@ Password: `<CTRL>` + `<C>` (copied passwords from Note's app) -> `<CTRL>` + `<V>
 
 7. Edit the code file to fix the failing test <br>
 ![image](lab4_6.4.jpg)<br>
-*Figure 7.1* <br>
+***<p style="text-align: center;">Figure 7.1</p>*** <br>
 ![image](lab4_6.1.jpg)<br>
-*Figure 7.2* <br>
+***<p style="text-align: center;">Figure 7.2</p>*** <br>
 ![image](lab4_6.2.jpg)<br>
-*Figure 7.3* <br>
+***<p style="text-align: center;">Figure 7.3</p>*** <br>
 ![image](lab4_6.3.jpg)<br>
-*Figure 7.4* <br>
+***<p style="text-align: center;">Figure 7.4</p>*** <br>
 <u> Commands </u> <br>
 vim <tab> +.java
 /change<enter> (cursor should be on c) -> searches for the line with the given method that needs to be edited
