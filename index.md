@@ -33,8 +33,10 @@ Password: `<CTRL>` + `<C>` (copied passwords from Note's app) -> `<CTRL>` + `<V>
 <u> Explanation </u> <br>
 - First we need to make sure we are in the correct directory. The target directory is `lab7`. To change the working directory, I used the `cd` command.
 - The `bash test.sh` command is used to execute a Bash shell script named "test.sh". A shell script is a file containing a series of commands that are interpreted and executed by the Bash shell. This command will help us test whether `ListExamples.java` file is successful. I first typed the letter "t" to indicate the bash shell script name starts with a letter "t". Since there is only one bash shell script name starts with a letter "t" in the working directory, the `<tab>` shortcut will auto-complete.
+- In the picture above, we can clearly see since the apporiate changes were not made, the test fails.
 
 7. Edit the code file to fix the failing test <br>
+<u> Commands </u> <br>
 vim ListExamples.java -> opens the code to List.Examples.java
 vim <tab> +.java
 /change<enter> (cursor should be on c) -> searches for the line with the given method that needs to be edited
@@ -42,6 +44,8 @@ j l l  x (cursor should be on 1)
 i<2> <escape> :wq <enter>
   
 8. Run the tests, demonstrating that they now succeed <br>
+<u> Commands </u> <br>
+![image](lab4_4.jpg) <br> 
 bash test.sh (should be good)
 Up arrow, up arrow
 
