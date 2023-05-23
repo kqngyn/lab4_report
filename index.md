@@ -69,4 +69,5 @@ Figure 7.4: `<i>` + `<2>` + `<escape>` + `:wq` + `<enter>` <br>
 <u> Explanation </u> <br>
 - The `<git commit -am “lab4”>` command in Git is used to create a new commit with a commit message, including changes to tracked files. I used the `<git commit>` to create a new commit. Then `<-a>` command to automatically stage (add to the index) all tracked files that have been modified or deleted. The `<m>` is to add a meaningful commit message. In my case, my commit message was just `<lab4>`.
 - I then utilized the `<git push>` command to push your local Git repository to a GitHub repository. I had to authenticate with GitHub hence entering my GitHub username and password. 
+<br>
 **NOTE**: I have been having issues with authenticating my GitHub as well as generating SSH Keys for ieng6/Github. I have asked for help during lab sessions but my IA was unable to identity the issue. I have been recommended to go to office hours with Joe to seek possible solutions to this issue which is held after due date of this lab report. At the time of this submission, the authentication will appear has denied but I am working on getting this fixed. Thank you! <br>
